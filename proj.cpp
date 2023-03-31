@@ -11,17 +11,11 @@
 //int startexploreval = 60;
 //int endexploreval = 80;//*/
 
-
-//#define FICHIER MY_MESHES_PATH "/Mystere5_SHORT_X_2048_Y_2048_Z_756.raw"
-//
-// int gridSize = 2048;
-// int YgridSize = 2048;
-// int ZgridSize = 756;
-//
-// #define SHORT
-//
-//int startexploreval=100;
-//int endexploreval=65000;//
+// arbre
+#define FICHIER MY_MESHES_PATH "/Mystere5_SHORT_X_2048_Y_2048_Z_756.raw"
+#define SHORT
+int startexploreval=20000;
+int endexploreval=20050;//
 
 
 //voiture
@@ -79,10 +73,10 @@
 // int endexploreval=65000; //
 
 //tete
-#define FICHIER MY_MESHES_PATH "/Mystere8_CHAR_X_2048_Y_2048_Z_2048.raw"
-#define CHAR
-int startexploreval=100;
-int endexploreval=255; //
+//#define FICHIER MY_MESHES_PATH "/Mystere8_CHAR_X_2048_Y_2048_Z_2048.raw"
+//#define CHAR
+//int startexploreval=100;
+//int endexploreval=255; //
 
 
 const char *location = FICHIER;
